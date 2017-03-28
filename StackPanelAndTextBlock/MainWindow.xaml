@@ -66,23 +66,21 @@
                 Seven Seven Seven Seven Seven Seven Seven
             </TextBlock>
         </StackPanel>
-        <Border Grid.Column="0"
-            Grid.Row="3">
-            <TextBlock 
-                TextAlignment="Justify"
-                Padding="3"
-                Background="Pink"
-                TextTrimming="WordEllipsis"
-                TextWrapping="NoWrap"
-                FontSize="14">
-                One<LineBreak/>
-                two two<LineBreak/>
-                Three Three Three<LineBreak/>
-                four four four four<LineBreak/>
-                Five Five Five Five Five<LineBreak/>
-                six six six six six six<LineBreak/>
-                Seven Seven Seven Seven Seven Seven Seven
-            </TextBlock>
+        <Border Grid.Column="0" Grid.Row="3" BorderThickness="1" BorderBrush="Brown">
+             <TextBlock 
+                 HorizontalAlignment="Stretch"
+                 VerticalAlignment="Center"
+                 TextTrimming="WordEllipsis"
+                 TextWrapping="NoWrap"
+                 FontSize="14">
+                 One<LineBreak/>
+                 two two<LineBreak/>
+                 Three Three Three<LineBreak/>
+                 four four four four<LineBreak/>
+                 Five Five Five Five Five<LineBreak/>
+                 six six six six six six<LineBreak/>
+                 Seven Seven Seven Seven Seven Seven Seven
+             </TextBlock>
         </Border>
     </Grid>
 </Window>
