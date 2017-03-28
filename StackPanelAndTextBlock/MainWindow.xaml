@@ -4,13 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="468" Width="525">
+        Title="MainWindow" Height="468" Width="468">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="2*"/>
@@ -52,7 +52,7 @@
             Grid.Row="2"
             Orientation="Horizontal"
                     Margin="10">
-            
+
             <TextBlock Background="DarkSalmon"
                 TextTrimming="WordEllipsis"
                 TextWrapping="NoWrap"
@@ -66,21 +66,24 @@
                 Seven Seven Seven Seven Seven Seven Seven
             </TextBlock>
         </StackPanel>
-        <Border Grid.Column="0" Grid.Row="3" BorderThickness="1" BorderBrush="Brown">
-             <TextBlock 
-                 HorizontalAlignment="Stretch"
-                 VerticalAlignment="Center"
-                 TextTrimming="WordEllipsis"
-                 TextWrapping="NoWrap"
-                 FontSize="14">
-                 One<LineBreak/>
-                 two two<LineBreak/>
-                 Three Three Three<LineBreak/>
-                 four four four four<LineBreak/>
-                 Five Five Five Five Five<LineBreak/>
-                 six six six six six six<LineBreak/>
-                 Seven Seven Seven Seven Seven Seven Seven
-             </TextBlock>
+        <Border Grid.Column="0"
+            Grid.Row="3"
+            Padding="0"
+            BorderThickness="0"
+            BorderBrush="Brown">
+            <TextBlock
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Center"
+                TextTrimming="WordEllipsis"
+                FontSize="14">
+                One<LineBreak/>
+                two two<LineBreak/>
+                Three Three Three<LineBreak/>
+                four four four four<LineBreak/>
+                Five Five Five Five Five<LineBreak/>
+                six six six six six six<LineBreak/>
+                Seven Seven Seven Seven Seven Seven Seven
+            </TextBlock>
         </Border>
     </Grid>
 </Window>
