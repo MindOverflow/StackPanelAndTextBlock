@@ -4,9 +4,10 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="468" Width="525">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
@@ -47,5 +48,41 @@
                 Seven Seven Seven Seven Seven Seven Seven
             </TextBlock>
         </StackPanel>
+        <StackPanel Grid.Column="0"
+            Grid.Row="2"
+            Orientation="Horizontal"
+                    Margin="10">
+            
+            <TextBlock Background="DarkSalmon"
+                TextTrimming="WordEllipsis"
+                TextWrapping="NoWrap"
+                FontSize="14">
+                One<LineBreak/>
+                two two<LineBreak/>
+                Three Three Three<LineBreak/>
+                four four four four<LineBreak/>
+                Five Five Five Five Five<LineBreak/>
+                six six six six six six<LineBreak/>
+                Seven Seven Seven Seven Seven Seven Seven
+            </TextBlock>
+        </StackPanel>
+        <Border Grid.Column="0"
+            Grid.Row="3">
+            <TextBlock 
+                TextAlignment="Justify"
+                Padding="3"
+                Background="Pink"
+                TextTrimming="WordEllipsis"
+                TextWrapping="NoWrap"
+                FontSize="14">
+                One<LineBreak/>
+                two two<LineBreak/>
+                Three Three Three<LineBreak/>
+                four four four four<LineBreak/>
+                Five Five Five Five Five<LineBreak/>
+                six six six six six six<LineBreak/>
+                Seven Seven Seven Seven Seven Seven Seven
+            </TextBlock>
+        </Border>
     </Grid>
 </Window>

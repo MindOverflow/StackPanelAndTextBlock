@@ -1,1 +1,13 @@
 D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\bin\Debug\StackPanelAndTextBlock.exe.config
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\bin\Debug\StackPanelAndTextBlock.exe
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\bin\Debug\StackPanelAndTextBlock.pdb
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\StackPanelAndTextBlock.csprojResolveAssemblyReference.cache
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\MainWindow.baml
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\MainWindow.g.cs
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\App.g.cs
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\StackPanelAndTextBlock_MarkupCompile.cache
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\StackPanelAndTextBlock.g.resources
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\StackPanelAndTextBlock.Properties.Resources.resources
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\StackPanelAndTextBlock.csproj.GenerateResource.Cache
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\StackPanelAndTextBlock.exe
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\obj\Debug\StackPanelAndTextBlock.pdb
