@@ -1,0 +1,51 @@
+﻿<Window x:Class="StackPanelAndTextBlock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0"
+            Grid.Row="0">
+            <TextBlock Background="DarkSeaGreen"
+                TextTrimming="WordEllipsis"
+                TextWrapping="NoWrap"
+                FontSize="14">
+                One<LineBreak/>
+                two two<LineBreak/>
+                Three Three Three<LineBreak/>
+                four four four four<LineBreak/>
+                Five Five Five Five Five<LineBreak/>
+                six six six six six six<LineBreak/>
+                Seven Seven Seven Seven Seven Seven Seven
+            </TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Column="0"
+            Grid.Row="1"
+            Orientation="Horizontal">
+            <TextBlock Background="SandyBrown"
+                TextTrimming="WordEllipsis"
+                TextWrapping="NoWrap"
+                FontSize="14">
+                One<LineBreak/>
+                two two<LineBreak/>
+                Three Three Three<LineBreak/>
+                four four four four<LineBreak/>
+                Five Five Five Five Five<LineBreak/>
+                six six six six six six<LineBreak/>
+                Seven Seven Seven Seven Seven Seven Seven
+            </TextBlock>
+        </StackPanel>
+    </Grid>
+</Window>

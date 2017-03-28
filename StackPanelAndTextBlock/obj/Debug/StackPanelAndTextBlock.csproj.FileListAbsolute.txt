@@ -1,0 +1,1 @@
+D:\CSharp\Tests\StackPanelAndTextBlock\StackPanelAndTextBlock\bin\Debug\StackPanelAndTextBlock.exe.config
